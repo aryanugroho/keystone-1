@@ -1,5 +1,12 @@
 # @keystonejs/fields
 
+## 22.0.1
+
+### Patch Changes
+
+- Updated dependencies [[`15b1132d2`](https://github.com/keystonejs/keystone/commit/15b1132d20d13f79bbf1707e1897b31da887c2b7), [`6f985acc7`](https://github.com/keystonejs/keystone/commit/6f985acc775d6037ac69a01215f962285de78c75), [`4eb4753e4`](https://github.com/keystonejs/keystone/commit/4eb4753e45e5a6ca37bdc756aef7adda7f551da4)]:
+  - @keystonejs/access-control@8.0.0
+
 ## 22.0.0
 
 ### Major Changes

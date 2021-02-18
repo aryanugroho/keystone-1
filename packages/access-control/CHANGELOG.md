@@ -1,5 +1,17 @@
 # @keystonejs/access-control
 
+## 8.0.0
+
+### Major Changes
+
+- [`6f985acc7`](https://github.com/keystonejs/keystone/commit/6f985acc775d6037ac69a01215f962285de78c75) [#4861](https://github.com/keystonejs/keystone/pull/4861) Thanks [@timleslie](https://github.com/timleslie)! - The functions `validate*AccessControl` no longer set default values for the `authentication` value. If you are calling these functions directly you will need to make sure you pass in a value for `authentication`. If you are not directly calling these functions then there are no changes required.
+
+* [`4eb4753e4`](https://github.com/keystonejs/keystone/commit/4eb4753e45e5a6ca37bdc756aef7adda7f551da4) [#4865](https://github.com/keystonejs/keystone/pull/4865) Thanks [@timleslie](https://github.com/timleslie)! - Updated `validateAuthAccessControl` to now require an explicit `operation` argument.
+
+### Patch Changes
+
+- [`15b1132d2`](https://github.com/keystonejs/keystone/commit/15b1132d20d13f79bbf1707e1897b31da887c2b7) [#4853](https://github.com/keystonejs/keystone/pull/4853) Thanks [@timleslie](https://github.com/timleslie)! - Updated types to be parameterised by imperative argument type.
+
 ## 7.0.0
 
 ### Major Changes

@@ -1,5 +1,29 @@
 # @keystone-next/fields-document
 
+## 3.0.0
+
+### Major Changes
+
+- [`556c1f95f`](https://github.com/keystonejs/keystone/commit/556c1f95f287035493704d6f5d9744fd5e9774b6) [#4836](https://github.com/keystonejs/keystone/pull/4836) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Changed `NotEditable` component from rendering a div to a span so it can be used for inline elements
+
+### Minor Changes
+
+- [`556c1f95f`](https://github.com/keystonejs/keystone/commit/556c1f95f287035493704d6f5d9744fd5e9774b6) [#4836](https://github.com/keystonejs/keystone/pull/4836) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Added `fields.multiselect` prop field
+
+### Patch Changes
+
+- [`556c1f95f`](https://github.com/keystonejs/keystone/commit/556c1f95f287035493704d6f5d9744fd5e9774b6) [#4836](https://github.com/keystonejs/keystone/pull/4836) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Fixed `fields.select` not passing options to the select
+
+* [`556c1f95f`](https://github.com/keystonejs/keystone/commit/556c1f95f287035493704d6f5d9744fd5e9774b6) [#4836](https://github.com/keystonejs/keystone/pull/4836) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Fixed documentation in JSDocs for component blocks API
+
+* Updated dependencies [[`687fd5ef0`](https://github.com/keystonejs/keystone/commit/687fd5ef0f798da996f970af1591411f9cfe0985), [`370c0ee62`](https://github.com/keystonejs/keystone/commit/370c0ee623b515177c3863e66545465c13d5c914), [`2655c0b1b`](https://github.com/keystonejs/keystone/commit/2655c0b1bf714d80d46e1ff4e414b4bce474c23d), [`d9c20ba66`](https://github.com/keystonejs/keystone/commit/d9c20ba66931077f6e18d3497282be328cfb629f), [`45ea93421`](https://github.com/keystonejs/keystone/commit/45ea93421f9a6cf9b7ccbd983e0c9cbd687ff6af), [`3ca5038a0`](https://github.com/keystonejs/keystone/commit/3ca5038a021105a7452f4e7a4641107caa4ffe3a), [`c63e5d75c`](https://github.com/keystonejs/keystone/commit/c63e5d75cd77cf26f8762bda8143d1c1db6d0e3e), [`0f86e99bb`](https://github.com/keystonejs/keystone/commit/0f86e99bb3aa15f691ab7ff79e5a9ae3d1ac464e)]:
+  - @keystone-next/types@14.0.0
+  - @keystone-next/admin-ui@10.0.0
+  - @keystone-ui/core@2.0.1
+  - @keystone-next/admin-ui-utils@3.0.1
+  - @keystone-next/fields@5.0.1
+  - @keystonejs/fields@22.0.1
+
 ## 2.0.0
 
 ### Major Changes
